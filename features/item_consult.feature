@@ -12,9 +12,12 @@ Scénario:
   Et une des rubriques de l'item est "Isaac"
   Et une des rubriques de l'item est "1er quart XVIe"
 
-Scénario : L’utilisateur sélectionne un item sur un point de vue
+Scénario: l’utilisateur sélectionne un item sur un point de vue sur mobile
 
   Soit "SJ 000" l'item affiché
+  Et l'utilisateur est sur mobile
   Alors le titre de l'item affiché est "SJ 000"
-  Et la valeur de l'attribut "spatial" est "Église Saint-Jean-au-Marché,Troyes"
-  Et la légende de l’image est “© Copyright Aurélien Bénel - 2016”
+  Et la valeur de l'attribut "spatial" est "Église Saint-Jean-au-Marché, Troyes"
+  Et l'attribut "creator" est absent
+  Et l'attribut "created" est absent
+  Et la légende de l’image est "© Aurélien Bénel, 2016-06-18"

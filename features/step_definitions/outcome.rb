@@ -51,3 +51,12 @@ end
 Alors('le point de vue contient la rubrique {string}') do |topic|
   expect(page).to have_content topic
 end
+
+Alors("la légende de l’image est {string}") do |legend|
+  # could be more specific
+  expect(page).to have_content legend
+end
+
+Alors("l'attribut {string} est absent") do |attribute|
+  expect(find(".Attributes")).not_to have_content attribute
+end

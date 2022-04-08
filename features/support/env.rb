@@ -27,6 +27,8 @@ def getURI(name)
       uri = "/item/Vitraux%20-%20Bénel/493f2a3702be0e9a67a6fd29700fd4dff8f6986a"
     when "SJ 001"
       uri = "/item/Vitraux%20-%20Bénel/8d27115e20f9439b627ac511ade9a05bbe509130"
+    when "SJ 000"
+      uri = "/item/Vitraux%20-%20Bénel/358d1c9f168311a9fe7bd7e2737c181514652e9d"
   end
   return uri
 end
