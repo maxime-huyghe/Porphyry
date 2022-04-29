@@ -13,11 +13,19 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/components/registerPage/Register.jsx:78
+msgid "Adresse email"
+msgstr "Adresse email"
+
+#: src/components/registerPage/Register.jsx:73
+#~ msgid "Adresse mail"
+#~ msgstr "Adresse mail"
+
 #: src/components/viewpointPage/Contributors.jsx:28
 msgid "Ajouter"
 msgstr "Ajouter"
 
-#: src/components/itemPage/Item.jsx:234
+#: src/components/itemPage/Item.jsx:288
 msgid "Ajouter un attribut et une valeur..."
 msgstr "Ajouter un attribut et une valeur..."
 
@@ -25,7 +33,7 @@ msgstr "Ajouter un attribut et une valeur..."
 msgid "Ajouter une rubrique..."
 msgstr "Ajouter une rubrique..."
 
-#: src/components/itemPage/Item.jsx:58
+#: src/components/itemPage/Item.jsx:99
 msgid "Attributs du document"
 msgstr "Attributs du document"
 
@@ -41,7 +49,7 @@ msgstr "Contributeurs"
 msgid "Création du point de vue"
 msgstr "Création du point de vue"
 
-#: src/components/itemPage/Item.jsx:55
+#: src/components/itemPage/Item.jsx:96
 msgid "Description"
 msgstr "Description"
 
@@ -62,13 +70,17 @@ msgstr "Exclure"
 msgid "Inclure"
 msgstr "Inclure"
 
-#: src/components/itemPage/SameNameBlock.jsx:20
+#: src/components/itemPage/SameNameBlock.jsx:27
 msgid "Items ayant le même nom"
 msgstr "Items ayant le même nom"
 
 #: src/components/viewpointPage/Outliner.jsx:77
 msgid "Modification du point de vue"
 msgstr "Modification du point de vue"
+
+#: src/components/registerPage/Register.jsx:82
+msgid "Mot de passe"
+msgstr "Mot de passe"
 
 #: src/components/viewpointPage/Outliner.jsx:68
 msgid "Nom du point de vue"
@@ -87,32 +99,44 @@ msgstr "Ou"
 msgid "Pas de contributeurs"
 msgstr "Pas de contributeurs"
 
-#: src/components/portfolioPage/Portfolio.jsx:52
+#: src/components/portfolioPage/Portfolio.jsx:71
 msgid "Points de vue"
 msgstr "Points de vue"
+
+#: src/components/registerPage/Register.jsx:73
+msgid "Pseudonyme"
+msgstr "Pseudonyme"
 
 #: src/components/portfolioPage/SearchBar.jsx:47
 msgid "Rechercher..."
 msgstr "Rechercher..."
 
-#: src/components/itemPage/Item.jsx:48
+#: src/components/itemPage/Item.jsx:89
 #: src/components/viewpointPage/Outliner.jsx:37
 msgid "Retour à l'accueil"
 msgstr "Retour à l'accueil"
+
+#: src/components/itemPage/Item.jsx:89
+msgid "Retour à la visite"
+msgstr "Retour à la visite"
 
 #: src/components/portfolioPage/Status.jsx:25
 msgid "Rubrique inconnue"
 msgstr "Rubrique inconnue"
 
-#: src/components/Authenticated.jsx:30
+#: src/components/Authenticated.jsx:40
+msgid "S'inscrire..."
+msgstr "S'inscrire..."
+
+#: src/components/Authenticated.jsx:31
 msgid "Se connecter"
 msgstr "Se connecter"
 
-#: src/components/Authenticated.jsx:36
+#: src/components/Authenticated.jsx:37
 msgid "Se connecter..."
 msgstr "Se connecter..."
 
-#: src/components/Authenticated.jsx:21
+#: src/components/Authenticated.jsx:22
 msgid "Se déconnecter"
 msgstr "Se déconnecter"
 
@@ -120,19 +144,19 @@ msgstr "Se déconnecter"
 msgid "Tous les items"
 msgstr "Tous les items"
 
-#: src/components/itemPage/Item.jsx:325
+#: src/components/itemPage/Item.jsx:379
 msgid "Voulez-vous réellement que l'item affiché ne soit plus décrit à l'aide de cette rubrique ?"
 msgstr "Voulez-vous réellement que l'item affiché ne soit plus décrit à l'aide de cette rubrique ?"
 
-#: src/components/itemPage/Item.jsx:236
+#: src/components/itemPage/Item.jsx:290
 msgid "attribut : valeur"
 msgstr "attribut : valeur"
 
-#: src/components/Authenticated.jsx:29
+#: src/components/Authenticated.jsx:30
 msgid "mot de passe"
 msgstr "mot de passe"
 
-#: src/components/Authenticated.jsx:28
+#: src/components/Authenticated.jsx:29
 msgid "nom d'utilisateur"
 msgstr "nom d'utilisateur"
 
@@ -140,18 +164,6 @@ msgstr "nom d'utilisateur"
 msgid "valeur"
 msgstr "valeur"
 
-#: src/components/registerPage/Register.jsx:42
-msgid "S'inscrire..."
-msgstr "S'inscrire..."
-
-#: src/components/registerPage/Register.jsx:68
-msgid "Pseudonyme"
-msgstr "Pseudonyme"
-
-#: src/components/registerPage/Register.jsx:73
-msgid "Adresse mail"
-msgstr "Adresse mail"
-
-#: src/components/registerPage/Register.jsx:77
-msgid "Mot de passe"
-msgstr "Mot de passe"
+#: src/components/itemPage/Copyright.jsx:7
+msgid "© {creator}, {created}"
+msgstr "© {creator}, {created}"
