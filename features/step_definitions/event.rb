@@ -51,6 +51,11 @@ Quand("l'utilisateur recherche {string} puis choisit {string}") do |pattern, att
   click_link(attribute, href: nil)
 end
 
+Quand("l'utilisateur recherche {string}") do |pattern|
+  search_bar = find('input[type="search"]')
+  search_bar.set("#{pattern}\n")
+end
+
 Quand("l'utilisateur choisit l'item {string} dans le bloc Items ayant le même nom") do |item|
   within '.Item' do
     click_on item
